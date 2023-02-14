@@ -149,3 +149,13 @@ color: rgb(50, 47, 47);
     border-right: 4px solid black;
 }
 
+/* hover the elements */
+
+.topSection i:hover{
+    color: black;
+    cursor: pointer;
+}
+.socialMedia div:hover ,.myBtn button:hover{
+    background-color: rgba(0, 0, 0, 0.056);
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px rgb(93, 88, 88);
+}
