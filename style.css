@@ -1,0 +1,151 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* browser */
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(195, 195, 195);
+    color: gray;
+
+}
+
+.card{
+    width: 415px;
+    height: 570px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    background-color: #E6E8EC;
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px red; */
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px white;
+}
+
+.profileImage{
+    width: 200px;
+    height: 200px;
+    margin: -20px auto 10px auto;
+    border-radius: 50%;
+    border: 11px solid #ECE6E6;
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px white;
+}
+
+.profleName{
+font-weight: 800;
+line-height: 20px;
+color: rgb(50, 47, 47);
+}
+
+.profileDetail{
+    font-weight: 500;
+}
+
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topSection i{
+    font-size: 30px;
+}
+
+.socialMedia{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.socialMedia div{
+    background: #ECE6E6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px white;
+    
+}
+
+.socialMedia i{
+    font-size: 25px;
+}
+
+.socialMedia div:first-child{
+    color: blue;
+}
+
+.socialMedia div:last-child{
+    color: red;
+}
+
+.socialMedia div:nth-child(2){
+    color: green;
+}
+
+.socialMedia div:nth-child(3){
+    color: rgb(255, 147, 165);
+}
+
+.myBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.myBtn button{
+    padding: 10px 15px;
+    width: 160px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    color: gray;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px white;
+}
+
+
+.LikeAndComment{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.LikeAndComment div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: 25px;
+    padding-right: 25px;
+    padding-left: 15px;
+}
+
+.LikeAndComment div:first-child{
+    border-right: 4px solid black;
+}
+
+.LikeAndComment div:nth-child(2){
+    border-right: 4px solid black;
+}
+
